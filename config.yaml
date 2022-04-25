@@ -1,0 +1,41 @@
+
+        # time in seconds
+        configs:
+            # default: 0.9 / trust the bot to click on the location. [Max: 1 / Min: 0.1]
+            confidence: 0.9
+        
+            #default: False [False | True] / setting to use the mouse in reversed
+            inverted_mouse: False
+        
+            # default 5.0 seconds / default system activity delay
+            default_delay: 5.0
+            
+            # default 1.0 second / looping execution time delay
+            looping_delay: 1.0
+            
+            # default 30.0 seconds / delay for error checking on initial connection screen
+            connection_screen: 30.0
+            
+            # default 15.0 seconds / Used in screen transitions that may experience delays due to game server overload
+            transition_delay: 15.0
+            
+            # recommended 0.2 speed move
+            mouse_delays: 0.2
+            
+            # default: True [False | True] / reset application operation logs
+            reset_logs_on_start: True
+            
+            # default: 2 / number of trying to read the user's screen
+            attempts: 2
+            
+            # default: 30 / timeout in seconds for each execution attempt
+            timeout: 30
+        
+        # game configuration settings
+        game_configs:
+            # default 10 / minimum value of the amount of ships in the fleet to start the battle
+            min_ships_to_start: 10
+
+            # default 300 seconds / time in seconds to wait on the boss fight screen
+            wait_boss_fight_screen: 300
+        
